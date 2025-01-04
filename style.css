@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0dd471;
+    text-align: center; /* لضبط النصوص في المنتصف */
+}
+klojf{
+    text-align: center;
+    text-overflow: clip;
+    text-transform: capitalize;
+    text-shadow: #0dd471;
+    font-size: large;
+    font-weight: 300;
+    font-style: normal;
+}
+h1 {
+    margin: 20px 0;
+    font-size: 2rem;
+    color: #000000;
+}
+
+/* تنسيق الأزرار */
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+button.Dein {
+    background-color: #007bff; /* لون زر الدين */
+    color: white;
+}
+
+button.Dein:hover {
+    background-color: #000000; /* لون عند التمرير بالماوس */
+}
+
+.Haseb {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #007bff; /* لون زر الحاسب */
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.Haseb:hover {
+    background-color: #000000; /* لون عند التمرير بالماوس */
+}
+
+.container {
+    width: 100%;
+    overflow-x: auto; /* للتمرير الأفقي إذا لم تتسع الشاشة */
+    white-space: nowrap; /* جعل العناصر على صف واحد */
+    padding: 10px;
+}
+
+.box {
+    color: #000000;
+    display: inline-block; /* جعل كل مربع بجانب الآخر */
+    width: 200px;
+    height: 200px;
+    background-color: #ffffff;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+    vertical-align: top; /* محاذاة العناصر رأسيًا */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: #ff7b00;
+    transition: background-color 0.5s ease, transform 0.3s ease;
+}
+
+.box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    background-color: rgb(20, 125, 151);
+    color: #5a1818;
+}
+
+.box h2 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 30px;
+}
+
+.box a {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.box a:hover {
+    background-color: #ffffff;
+}
